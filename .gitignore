@@ -1,0 +1,9 @@
+# OS固有の環境ファイル
+.DS_Store
+Thumbs.db
+
+# 開発ツールの設定や一時ファイル
+.vscode/
+.idea/
+*.log
+
