@@ -1,0 +1,7 @@
+.my-highlight {
+  background-color: #ffeb3b; /* 黄色マーカー風 */
+  color: #000;
+  font-weight: bold;
+  padding: 2px 4px;
+  border-radius: 2px;
+}

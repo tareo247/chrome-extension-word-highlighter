@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "テキストハイライター",
+  "version": "1.0",
+  "description": "特定ページの特定文言をハイライトします",
+  "content_scripts": [
+    {
+      "matches": ["https://news.yahoo.co.jp/*"],
+      "js": ["content.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
